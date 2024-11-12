@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>은지티비</title>
+    <!-- 웹 폰트 링크 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Jua&family=Nanum+Pen+Script&family=Single+Day&display=swap" rel="stylesheet">
+    <!-- 스타일시트 링크 -->
+    <link rel="stylesheet" href="./css/mystyle.css">
+    
+    <!-- JavaScript -->
+    <!-- 수정하기 : 아래 '스크립트'를 'script'로 수정하세요. -->
+    <script src="./js/script.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 id="logo">
+                <!-- Logo -->
+                <a href="#">은지 티비 </a>
+            </h1>
+        </div>
+
+        <nav>
+            <!-- 내비게이션 메뉴 -->
+            <a href="#main" class="menu">메인</a> 
+            <a href="#about" class="menu">은지</a> 
+            <a href="#gallery" class="menu">갤러리</a> 
+            <!-- <a href="./cal.html" class="menu">계산기</a> -->
+        </nav>
+    </header>
+
+    <section id="main">
+        <!-- 메인 섹션 환영 텍스트 -->
+        <div>
+            <h4>은지야 안녕.</h4>
+            <h5>Welcome</h5>
+            <h4>❤️❤️❤️</h4><BR>
+            <p>여기는 은지티비입니다.</p>
+            <button onclick="checkIn()">은지 안녕</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="title">은지❤️우람</h2>
+        <!-- 소개 섹션 이미지 -->
+         <h1>강은지</h1>
+         <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462638403_1084144379875473_725398943783986977_n.jpg?stp=dst-jpg_p480x480&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=tMYPezurP5oQ7kNvgFri8IB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QG0X6x-IiR-bH8k7myCzE4Mrej-8vll-I6-kombru_MUA&oe=675A6550" alt="사진">
+        <!-- 소개 섹션 텍스트 -->
+         <p>
+            <h1>----------------------------------------</h1>
+            <h2>
+                강은지는 김우람의 와이프이다<br>
+                강은지는 귀엽다<br>
+                강은지는 이쁘다<br>
+                강은지는 키가 150이라고 하지만 148이다<br>
+                강은지 정수리가 너무 잘 보인다<br>
+             </h2>
+             <h1>----------------------------------------</h1>
+         </p>
+         <ol>
+            <h1>----------------------------------------</h1>
+            <li>출생 : 2006년 10월 31일 경상남도 어딘가</li>
+            <li>신체 148cm, 40kg
+            <li>강은지의 업적
+                <ul>
+                    <li>김우람과 사귐</li>
+                    <li>키가 148임</li>
+                    <li>서울로 취직함</li>
+                    <li>너무 귀여움</li>
+                    <li>너무 이쁨 ㅎㅎ</li></ul>
+            <h1>----------------------------------------</h1>
+        </ol>
+    </section>
+
+    <section id="gallery">
+        <h2 class="title">갤러리</h2>
+        <!-- 갤러리 섹션 이미지 -->
+        <div>
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462560615_9258358857516473_8317354451572474739_n.jpg?stp=dst-jpg_p480x480&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=R24KC52jQyQQ7kNvgG8LHDp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QE5k09O1gzMlhy2hAUdgSmO6uUic6FUqbpyvyN6o_jeXw&oe=675A4DF7" alt="사진1" id="big">
+        </div>
+        <div>
+            <!-- 수정하기 : 아래 '온클릭'을 'onclick'으로 수정하세요.-->
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462565962_418804054612047_4819716692140169973_n.jpg?stp=dst-jpg_p480x480&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=qMZMXTTbh5sQ7kNvgFi5bGs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHnhzESVACPt5awGQEtj6FNsBix2dwLsYFUcMOTqEJJpQ&oe=675A6253" alt="사진1" class="small" onclick="showBig(this)">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462560822_1248840426458601_4840372546990123323_n.jpg?stp=dst-jpg_p480x480&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=-qWwkW8NYwwQ7kNvgEeg-OU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QECrbg5fzY62gk4Np5pNOyy3EI3mOX6zI7St-SV9Fbi-Q&oe=675A6D52" alt="사진2" class="small" onclick="showBig(this)">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/465886435_2986561068157616_5783892232213972377_n.jpg?stp=dst-jpg_p480x480&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=bwn-FQ0FzuAQ7kNvgFja6yO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEeGxJsTnaYDek5eCrAG19iUeHI08NzzLh2eZ8q_oJzLw&oe=675A62A2" alt="사진3" class="small" onclick="showBig(this)">  
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462652070_1045056113969882_2365291306107916253_n.jpg?stp=dst-jpg_s640x640&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=2Tr2uAIkv68Q7kNvgE7ESRR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHsjy8mdmtiAHcEVGxJb2LqcoGjXkm110kRdO-0NsQP0w&oe=675A6A97" alt="사진4" class="small" onclick="showBig(this)">   
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462579931_1963858564124178_7531070581387443716_n.jpg?stp=dst-jpg_s640x640&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=HhPN93nwBDQQ7kNvgH3GgSU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHxf4PI1AH3OH2KMI0zOO_LhSgLAV2I4mbkkr83OB99zw&oe=675A52F1" alt="사진5" class="small" onclick="showBig(this)">    
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462638218_1512859636068075_7101066379867797264_n.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=u1OEYpOeGL8Q7kNvgEtcQNV&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QExqFBj4_woBsDKDVD6zM9FOJPMtoCMPUQ86Q4J9CSBgg&oe=675A4F26" alt="사진6" class="small" onclick="showBig(this)">    </div>
+    </section>
+
+    <footer>
+        Copyright&copy; 김우람. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
